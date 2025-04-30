@@ -21,6 +21,7 @@ const AboutMeMain = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.7 }}
+        // className="flex items-center justify-center"
       >
         <AboutMeImage />
       </motion.div>

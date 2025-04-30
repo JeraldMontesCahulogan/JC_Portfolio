@@ -1,23 +1,27 @@
 import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
+import website1 from "../../assets/project1.png";
+import website2 from "../../assets/project2.png";
+import website3 from "../../assets/project.png";
+import website4 from "../../assets/project3.png";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
-  {
-    name: "Deja Brew",
-    year: "Dec2023",
-    align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
-    details:
-      "A web-based Coffee Shop POS system using PHP, HTML, CSS, and phpMyAdmin with separate pages for admin and cashier. Admins manage products and view sales reports; cashiers handle orders and transactions",
-  },
+  // {
+  //   name: "Deja Brew",
+  //   year: "Dec2023",
+  //   align: "right",
+  //   image: website1,
+  //   link: "#",
+  //   details:
+  //     "A web-based Coffee Shop POS system using PHP, HTML, CSS, and phpMyAdmin with separate pages for admin and cashier. Admins manage products and view sales reports; cashiers handle orders and transactions",
+  // },
   {
     name: "Spendzilla",
     year: "Dec2024",
-    align: "left",
-    image: "../../public/images/website-img-3.jpg",
+    align: "right",
+    image: website2,
     link: "#",
     details:
       "A web-based Finance Tracking system built with Laravel, Tailwind CSS, and phpMyAdmin. It enables users to track their income, expenses, and budget, offering real-time analytics and visualizations for effective personal finance management.",
@@ -25,8 +29,8 @@ const projects = [
   {
     name: "E-Commerce",
     year: "Jan2025",
-    align: "right",
-    image: "../../public/images/website-img-2.webp",
+    align: "left",
+    image: website3,
     link: "#",
     details:
       "A full-stack E-commerce website built with the MERN stack and integrated with Stripe for secure payments. Includes an admin dashboard for product management and sales analytics, and a user-friendly interface for browsing, purchasing, and order tracking.",
@@ -34,11 +38,20 @@ const projects = [
   {
     name: "Kasandigan",
     year: "Apr2025",
-    align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    align: "right",
+    image: website4,
     link: "#",
     details:
       "A full-stack web-based Barangay Complaint System built with Laravel, Tailwind CSS, and phpMyAdmin. It features role-based access for admins (barangay captains), officials, and residents—residents can file and monitor their own complaints, while admins and officials manage and resolve them.",
+  },
+  {
+    name: "Explore Panglao",
+    year: "Apr2025",
+    align: "left",
+    image: website1,
+    link: "#",
+    details:
+      "A responsive travel website built with React and Tailwind CSS, showcasing the natural beauty and attractions of Panglao Island. The site features smooth navigation, destination highlights, tour packages, and contact options—perfect for helping travelers plan their tropical getaway.",
   },
 ];
 

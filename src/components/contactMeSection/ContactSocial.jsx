@@ -14,7 +14,10 @@ const ContactSocial = () => {
         link="https://github.com/JeraldMontesCahulogan"
         Icon={FiGithub}
       />
-      <SingleContactSocial link="#" Icon={FaInstagram} />
+      <SingleContactSocial
+        link="https://www.instagram.com/jerald_montes_cahulogan?igsh=YzljYTk1ODg3Zg=="
+        Icon={FaInstagram}
+      />
     </div>
   );
 };

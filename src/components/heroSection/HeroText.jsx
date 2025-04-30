@@ -28,7 +28,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-2xl md:text-xl text-lg md:mt-4 mt-2 w-96"
+        className="lg:text-2xl md:text-xl text-lg md:mt-4 mt-2 md:w-96 w-80"
       >
         An Aspirant Web Developer passionate about building modern websites and
         continuously learning new technologies.
